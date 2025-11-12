@@ -1,4 +1,5 @@
 import React from "react";
+import MiniChart from "./ui/Minichart";
 
 const stats = [
   { icon: "📊", title: "Total Revenue", value: "$42,847", description: "Monthly revenue increased by 23% compared to last month." },
