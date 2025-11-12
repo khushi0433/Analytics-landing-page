@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/hero.css"; // We'll keep your CSS animations here
+import "../styles/hero.css";
 
 const Hero = () => {
   return (
