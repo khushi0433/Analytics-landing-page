@@ -1,5 +1,6 @@
 import React from "react";
 import MiniChart from "./ui/Minichart";
+import Stats from "./ui/stats";
 
 const stats = [
   { icon: "📊", title: "Total Revenue", value: "$42,847", description: "Monthly revenue increased by 23% compared to last month." },
@@ -29,8 +30,7 @@ const Dashboard = () => {
               </div>
               <div className="text-3xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-white to-teal-400">{stat.value}</div>
               <p className="text-gray-500 text-sm">{stat.description}</p>
-              {/* Mini Chart placeholder */}
-              <div className="mt-4 h-14 bg-gray-700 rounded-lg"></div>
+              <MiniChart color="#00d4aa" />
             </div>
           ))}
         </div>

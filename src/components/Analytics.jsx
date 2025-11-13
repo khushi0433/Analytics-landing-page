@@ -1,4 +1,5 @@
 import React from "react";
+import Stats from "./ui/stats";
 
 const metrics = [
   { value: "2.4M", label: "Page Views" },
@@ -27,13 +28,15 @@ const AnalyticsSection = () => {
           ))}
         </div>
 
-        {/* Charts Grid Placeholder */}
+        {/* Charts Grid */}
         <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-2">
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-6 h-80 flex items-center justify-center">
-            Monthly Trends Chart
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-6 h-80">
+            <h3 className="text-xl font-semibold mb-4">Monthly Trends</h3>
+            <Stats />
           </div>
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-6 h-80 flex items-center justify-center">
-            Growth Analytics Chart
+          <div className="bg-white/5 border border-white/10 rounded-2xl p-6 h-80">
+            <h3 className="text-xl font-semibold mb-4">Growth Analytics</h3>
+            <Stats />
           </div>
         </div>
       </div>
