@@ -29,7 +29,7 @@ A modern, responsive React-based website showcasing analytics, dashboards, and r
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/khushi0433/Analytics-landing-page
 cd topic-website
 ```
 
